@@ -1,5 +1,6 @@
 package com.demokubuntu.main;
 
+import com.demokubuntu.web.WebApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(com.demokubuntu.web.WebApplication.class, args);
+		SpringApplication.run(WebApplication.class, args);
 	}
 
 

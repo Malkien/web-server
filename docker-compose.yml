@@ -7,7 +7,7 @@ services:
       context: ./web
       args:
         - APP_NAME:web
-        - APP_VERSION=0.0.1-SNAPSHOT
+        - APP_VERSION:0.0.1-SNAPSHOT
     environment:
         SPRING_PROFILES_ACTIVE: dev
     expose:
